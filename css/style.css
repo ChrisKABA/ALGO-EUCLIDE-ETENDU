@@ -1,0 +1,102 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/*********** FONTS *****************/
+
+@font-face {
+  font-family: 'doubleplus';
+  src: url('/font/doubleplus/Doubleplus.otf') format('otf');
+}
+
+main{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    max-width: 350px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container__title{
+    font-family: 'doubleplus';
+    letter-spacing: 2px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0px;
+}
+
+.container__title--color--red{
+    color: #E5203D;
+}
+
+.content__item__label{
+    font-size: 1.2rem;
+}
+
+.content__item__input,.content__item__resultat{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 90%;
+   height: 2rem;
+   border: 1px solid black;
+   border-radius: 7px;
+   font-size: 1rem;
+   padding-left: 1rem;
+}
+
+.content__item__resultat{
+    display: flex;
+    align-items: center;
+    background-color: rgb(222, 221, 221);
+    font-size: 1.3rem;
+}
+.content__item{
+    width: 90%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.button__item{  
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn__primary{
+    border: 1px solid #E5203D;
+    background-color: #E5203D;
+    color: white;
+}
+.btn__secondary{
+    border: 1px solid black;
+    color: black;
+}
+
+/****************FOOTER*****************/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5203D;
+    color: white;
+    font-size: 1.3rem;
+    height: 100px;
+}

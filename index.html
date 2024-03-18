@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Algo D'euclide Etendu</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="container__title">CALCUL DU PGCD PAR <span class="container__title--color--red">L'ALGO D'EUCLIDE</span></h1>
+            <form class="content">
+                <div class="content__item">
+                    <label for="nombre1" class="content__item__label">Nombre 1</label></br>
+                    <input type="number" class="content__item__input"  name="nombre1" id="nombre1" placeholder="Entrez le premier nombre"></br>
+                </div>
+                <div class="content__item">
+                    <label for="nombre1" class="content__item__label">Nombre 2</label></br>
+                    <input type="number" class="content__item__input" name="nombre1" id="nombre2" placeholder="Entrez le second nombre"></br>
+                </div>
+                <div class="content__item">
+                    <label for="Resultat" class="content__item__label">PGCD</label></br>
+                    <div class="content__item__resultat" id="Resultat__r" name="Resultat"></div>
+                </div>
+                <div class="content__item">
+                    <label for="Resultat__s" class="content__item__label">S</label></br>
+                    <div class="content__item__resultat" id="Resultat__s" name="Resultat__s"></div>
+                </div>
+                <div class="content__item">
+                    <label for="Resultat__t" class="content__item__label">T</label></br>
+                    <div class="content__item__resultat" id="Resultat__t" name="Resultat__t"></div>
+                </div>
+                <div class="button">
+                    <div class="button__item btn__primary" onclick="algo__euclide__etendu()">CALCULER</div>
+                    <div class="button__item btn__secondary" onclick="deleted()">SUPPRIMER</div>
+                </form>
+            </div>
+        </div>  
+    </main>
+    <footer class="footer">
+        <div id="copyrigth">© 2024 By Chris kaba</div>
+    </footer>
+</body>
+<script src="./js/euclide.js"></script>
+</html>
